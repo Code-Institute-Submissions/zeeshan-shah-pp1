@@ -276,6 +276,7 @@ color: white;
     display: flex;
     gap: 20px 30px;
     padding-top: 10px;
+    margin-top: 30px;
 
 }
 
@@ -286,7 +287,7 @@ color: white;
     border-radius: 10%;    
     padding: 30px;
     border-style: solid;
-    border-color: #fada95;
+    border-color: #DAA520;
     border-width:8px;
     width: 60%;
     height: 100%;
@@ -327,11 +328,12 @@ color: white;
 #about-us-history p{
     font-family: Inconsolata, sans-serif;
     font-size: 120%;
+    margin: 20px;
 }
 
 #about-us-container-2{
     width: 100%;
-    height: 1600px;
+    height: 1800px;
     display: inline-block;
     padding-top: 10px;
 }
@@ -345,6 +347,7 @@ color: white;
     font-size: 200%;
     font-weight: bold;   
     text-align: center;
+    padding: 20px;
 }
 
 #about-us-container-2 p{
@@ -366,6 +369,7 @@ color: white;
     width: 50%;
     height: 300px;
     display: flex;
+    margin: 20px 0;
 }
 
 #cow-content{
@@ -386,6 +390,7 @@ color: white;
     height: 300px;
     display: flex;
     left: 15%;
+    margin: 20px 0;
 }
 
 #milking-content{
@@ -405,6 +410,7 @@ color: white;
     width: 50%;
     height: 300px;
     display: flex;
+    margin: 20px 0;
 }
 
 #cream-content{
@@ -424,6 +430,7 @@ color: white;
     width: 50%;
     height: 300px;
     display: flex;
+    margin: 20px 0;
 }
 
 #icecream-content{
@@ -620,9 +627,43 @@ color: #dd4b39;
 
 /* Menu Page */
 
+#menu-heading-background {
+    background-image: url('../images/menu-heading-background.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    width: 90%;
+    overflow: hidden;
+    height: 250px;  
+    margin: 70px auto;
+    position: relative;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 50%;
+    border-color: #DAA520;
+    box-sizing: border-box; 
+}
+
+#menu-heading-text{
+    position: absolute;
+    text-align: center; 
+    color: #aaa9ad;
+    font-size: 400%;
+    font-family: "Ribeye Marrow", sans-serif;
+    text-transform: capitalize;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#menu-heading-text img{
+    width: 10%;
+}
+
+
 #menu-card-container{
     width: 100%;
-    height: 1200px;
+    height: 2200px;
     display: inline-block;
     padding-top: 10px;
 }
@@ -632,9 +673,10 @@ color: #dd4b39;
     height: 300px;
     display: flex;
     background-color: #C4A484;
-    margin: 10px auto;
+    margin: 30px auto;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
+    border-radius: 15px 50px;
 }
 
 #icecream-image-container-chocolate{
@@ -650,7 +692,7 @@ color: #dd4b39;
     border-width: 2px;
 }
 
-#icecream-text-container-chocolate{
+.icecream-text-container{
     width: 70%;
     height: 300px;
     display: flex;
@@ -661,7 +703,7 @@ color: #dd4b39;
     flex-direction: column;
 }
 
-#icecream-text-container-chocolate h2{
+.icecream-text-container h2{
     font-family: "Stick No Bills", sans-serif;
     font-weight: 300;
     color: #0a0a0a;
@@ -669,7 +711,7 @@ color: #dd4b39;
     font-size: 300%;
 }
 
-#icecream-text-container-chocolate p{
+.icecream-text-container p{
     font-family: Inconsolata, sans-serif;
     font-weight: 300;
     color: #FAF9F6;
@@ -682,9 +724,10 @@ color: #dd4b39;
     height: 300px;
     display: flex;
     background-color: #f4c2c2;
-    margin: 10px auto;
+    margin: 30px auto;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
+    border-radius: 50px 15px;
 }
 
 #icecream-image-container-strawberry{
@@ -700,10 +743,100 @@ color: #dd4b39;
     border-width: 2px;
 }
 
-#icecream-text-container-strawberry{
-    width: 70%;
+#menu-card-sub-container-vanilla{
+    width: 80%;
     height: 300px;
     display: flex;
+    background-color: #ffe135;
+    margin: 30px auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px 50px;
+}
+
+#icecream-image-container-vanilla{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    background: url('../images/vanilla-icecream.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10%; 
+    margin: auto 30px;
+    border: #f3e5ab;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#menu-card-sub-container-pistachio{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    background-color: #A9D39E;
+    margin: 30px auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px 15px;
+}
+
+#icecream-image-container-pistachio{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    background: url('../images/pista-icecream.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10%; 
+    margin: auto 30px;
+    border: #93C572;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#menu-card-sub-container-cherry{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    background-color: #ffbdbd;
+    margin: 30px auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px 50px;
+}
+
+#icecream-image-container-cherry{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    background: url('../images/cherry-icecream.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10%; 
+    margin: auto 30px;
+    border:  #790604;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#menu-card-sub-container-butterscotch{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    background-color: #fdd7a2;
+    margin: 30px auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px 15px;
+}
+
+#icecream-image-container-butterscotch{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    background: url('../images/butterscotch-icecream.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10%; 
+    margin: auto 30px;
+    border:  #E3963E;
+    border-style: solid;
+    border-width: 2px;
 }
 
 
