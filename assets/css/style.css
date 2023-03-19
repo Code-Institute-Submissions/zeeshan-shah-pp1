@@ -51,11 +51,13 @@ color: white;
     height: 1080px;
 }
 
-/*
+
 #logo{
     width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
 }
-*/
+
 
 #logo a,h1{
     text-decoration: none;
@@ -290,7 +292,7 @@ color: white;
     border-color: #DAA520;
     border-width:8px;
     width: 60%;
-    height: 100%;
+    height: 600px;
     box-sizing: border-box;   
     position: relative; 
 }
@@ -300,7 +302,6 @@ color: white;
     position: absolute;
     top: 60%;
     left: 40%;
-    
 }
 
 #who-are-we h2{
@@ -333,7 +334,7 @@ color: white;
 
 #about-us-container-2{
     width: 100%;
-    height: 1800px;
+    height: 2000px;
     display: inline-block;
     padding-top: 10px;
 }
@@ -367,14 +368,13 @@ color: white;
 
 #cow{
     width: 50%;
-    height: 300px;
+    height: 400px;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 #cow-content{
     width: 50%;
-    margin: auto;
 }
 
 #cow-img{
@@ -387,15 +387,14 @@ color: white;
 
 #milking{
     width: 50%;
-    height: 300px;
+    height: 400px;
     display: flex;
     left: 15%;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 #milking-content{
     width: 50%;
-    margin: auto;
 }
 
 #milking-img {
@@ -408,14 +407,13 @@ color: white;
 
 #cream{
     width: 50%;
-    height: 300px;
+    height: 400px;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 #cream-content{
     width: 50%;
-    margin: auto;
 }
 
 #cream-img {
@@ -428,14 +426,13 @@ color: white;
 
 #icecream{
     width: 50%;
-    height: 300px;
+    height: 400px;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 #icecream-content{
     width: 50%;
-    margin: auto;
 }
 
 #icecream-img {
@@ -699,8 +696,8 @@ color: #dd4b39;
     margin: auto;
     text-align: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .icecream-text-container h2{
@@ -839,6 +836,85 @@ color: #dd4b39;
     border-width: 2px;
 }
 
+/* For screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    
+#about-us-container-1{
+    height: 800px;
+}
+
+#about-us-img-container{
+height: 800px;
+}
+
+#about-us-history{
+    height: 800px;
+}
+
+#about-us-container-2{
+    width: 100%;
+    height: 2200px;
+}
+
+#cow-layout{
+    float: left;
+    padding: 20px;
+}
+
+#cow{
+    width: 100%;
+}
+
+#milking-layout{
+    float: left;
+    left: 0;
+    padding: 20px;
+}
+
+#milking{
+    width: 100%;
+}
+
+#cream-layout{
+    float: left;
+    left: 0;
+    padding: 20px;
+}
+
+#cream{
+    width: 100%;
+}
+
+#icecream-layout{
+    float: left;
+    left: 0;
+    padding: 20px;
+}
+
+#icecream{
+    width: 100%;
+}
+
+#cow-content{
+    margin: 0 auto;
+}
+
+#milking-content{
+    margin: 0 auto;
+}
+
+#cream-content{
+    margin: 0 auto;
+}
+
+#icecream-content{
+    margin: 0 auto;
+}
+
+}
+
+
 
 /* For screens size from 992px wide and down */
 
@@ -869,11 +945,64 @@ color: #dd4b39;
     clear: left;
 }
 
+#about-us-container-1{
+    height: 900px;
+    display: inline-block;
 }
+
+#about-us-img-container{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
+    
+#about-us-history{
+    width: 100%;
+}
+
+#about-us-history h2{
+    margin: 7%;
+}
+
+#about-us-container-2{
+    width: 100%;
+    height: 2200px;
+}
+
+#who-are-we{
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.icecream-text-container h2{
+    font-size: 200%;
+}
+
+.icecream-text-container p{
+    font-size: 150%;
+}
+
+#menu-heading-text{
+    font-size: 250%;
+}
+
+}
+
 
 /* For screens size from 600px wide and down */
 
 @media screen and (max-width: 600px) {
+
+
+#logo {
+    height: 200px;
+}
+
+#logo h1{
+    font-size: 150%;
+}
 
 #menu-window{    
     position: relative;
@@ -894,6 +1023,206 @@ color: #dd4b39;
     top: 30%;
     left: 25%;
     scale: 0.8;
+}
+
+#who-are-we{
+    scale: 0.8;
+}
+
+#about-us-container-2{
+    width: 100%;
+    height: 2800px;
+}
+
+#cow{
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+}
+
+#cow-content{
+    width: 100%;
+    float: left;
+}
+
+.img-container{
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#milking{
+    width: 100%;
+    display: inline-block;
+    height: 600px;
+}
+
+#milking-content{
+    width: 100%;
+    float: left;
+}
+
+#cream{
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+}
+
+#cream-content{
+    width: 100%;
+    float: left;
+}
+
+#icecream{
+    width: 100%;
+    display: inline-block;
+    height: 600px;
+}
+
+#icecream-content{
+    width: 100%;
+    float: left;
+}
+
+.icecream-text-container{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+#menu-card-sub-container-chocolate{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icecream-image-container-chocolate{
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+#menu-card-sub-container-strawberry{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icecream-image-container-strawberry{
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+#menu-card-sub-container-vanilla{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icecream-image-container-vanilla{
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+#menu-card-sub-container-pistachio{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icecream-image-container-pistachio{
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+#menu-card-sub-container-cherry{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icecream-image-container-cherry{
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+#menu-card-sub-container-butterscotch{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#icecream-image-container-butterscotch{
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+}
+
+#menu-card-container{
+    height: 3800px;
+    padding-left: 30px;
+}
+
+#menu-heading-text{
+    font-size: 200%;
+}
+
+}
+
+/* For screens size from 400px wide and down */
+
+@media screen and (max-width: 400px) {
+
+#logo h1{
+    font-size: 100%;
+}
+
+#menu-window{    
+    position: relative;
+    top: 30%;
+    left: 15%;
+    scale: 0.6;
+}
+
+#about-window{    
+    position: relative;
+    top: 10%;
+    left: 15%;
+    scale: 0.6;
+}
+
+#contact-window{    
+    position: relative;
+    top: 10%;
+    left: 15%;
+    scale: 0.6;
+}
+
+footer ul li a {
+    margin: 0 10px;
 }
 
 }
@@ -902,25 +1231,66 @@ color: #dd4b39;
 
 @media screen and (max-width: 300px) {
 
-#menu-window{    
-    position: relative;
-    top: 30%;
-    left: 15%;
+#homepage-background{
+    height: 950px;
+}
+
+#menu-window{
+    left: 5%;
+}
+
+#about-window{
+    left: 5%;
+}
+
+#contact-window{
+    left: 5%;
+}
+
+#who-are-we{
     scale: 0.6;
 }
 
-#about-window{    
-    position: relative;
-    top: 10%;
-    left: 15%;
-    scale: 0.6;
+#about-us-history h2{
+    font-size: 200%;
 }
 
-#contact-window{    
-    position: relative;
-    top: 10%;
-    left: 15%;
-    scale: 0.6;
+#our-quality > h2{
+    font-size: 250%;
+}
+
+#cow-layout{
+    scale: 0.8;
+    padding: 0;
+}
+
+#milking-layout{
+    scale: 0.8;
+    padding: 0;
+}
+
+#cream-layout{
+    scale: 0.8;
+    padding: 0;
+}
+
+#icecream-layout{
+    scale: 0.8;
+    padding: 0;
+}
+
+#about-us-container-2{
+    width: 100%;
+    height: 2600px;
+}
+
+footer ul li a {
+    margin: 0 5px;
+    font-size: 10px;
+}
+
+#menu-heading-text{
+    font-size: 150%;
 }
 
 }
