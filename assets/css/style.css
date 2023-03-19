@@ -264,14 +264,6 @@ color: white;
 
 /* About Us Page */
 
-/*
-.background-color-about-page{
-    background-color: #89CFF0;
-    width: 100%;
-    height: 1080px;
-}
-*/
-
 #about-us-container-1{
     width: 100%;
     height: 600px;
@@ -334,7 +326,7 @@ color: white;
 
 #about-us-container-2{
     width: 100%;
-    height: 2000px;
+    height: 2200px;
     display: inline-block;
     padding-top: 10px;
 }
@@ -367,7 +359,7 @@ color: white;
 }
 
 #cow{
-    width: 50%;
+    width: 100%;
     height: 400px;
     display: flex;
     margin: 10px 0;
@@ -386,7 +378,7 @@ color: white;
 }
 
 #milking{
-    width: 50%;
+    width: 100%;
     height: 400px;
     display: flex;
     left: 15%;
@@ -406,7 +398,7 @@ color: white;
 }
 
 #cream{
-    width: 50%;
+    width: 100%;
     height: 400px;
     display: flex;
     margin: 10px 0;
@@ -425,7 +417,7 @@ color: white;
 }
 
 #icecream{
-    width: 50%;
+    width: 100%;
     height: 400px;
     display: flex;
     margin: 10px 0;
@@ -463,22 +455,22 @@ color: white;
 
 #cow-layout{
     position: relative;
-    left: 0%;
+    padding-left: 0%;
 }
 
 #milking-layout{
     position: relative;
-    left: 15%;
+    padding-left: 15%;
 }
 
 #cream-layout{
     position: relative;
-    left: 30%;
+    padding-left: 30%;
 }
 
 #icecream-layout{
     position: relative;
-    left: 45%;
+    padding-left: 45%;
 }
 
 /* Footer */
@@ -644,7 +636,7 @@ color: #dd4b39;
 #menu-heading-text{
     position: absolute;
     text-align: center; 
-    color: #aaa9ad;
+    color: #ff4545;
     font-size: 400%;
     font-family: "Ribeye Marrow", sans-serif;
     text-transform: capitalize;
@@ -653,10 +645,13 @@ color: #dd4b39;
     transform: translate(-50%, -50%); 
 }
 
-#menu-heading-text img{
-    width: 10%;
+#menu-card-container-outerlayout-1{
+    width: 90%;
+    height: 2200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
-
 
 #menu-card-container{
     width: 100%;
@@ -666,7 +661,7 @@ color: #dd4b39;
 }
 
 #menu-card-sub-container-chocolate{
-    width: 80%;
+    width: 100%;
     height: 300px;
     display: flex;
     background-color: #C4A484;
@@ -717,7 +712,7 @@ color: #dd4b39;
 }
 
 #menu-card-sub-container-strawberry{
-    width: 80%;
+    width: 100%;
     height: 300px;
     display: flex;
     background-color: #f4c2c2;
@@ -741,7 +736,7 @@ color: #dd4b39;
 }
 
 #menu-card-sub-container-vanilla{
-    width: 80%;
+    width: 100%;
     height: 300px;
     display: flex;
     background-color: #ffe135;
@@ -765,7 +760,7 @@ color: #dd4b39;
 }
 
 #menu-card-sub-container-pistachio{
-    width: 80%;
+    width: 100%;
     height: 300px;
     display: flex;
     background-color: #A9D39E;
@@ -789,7 +784,7 @@ color: #dd4b39;
 }
 
 #menu-card-sub-container-cherry{
-    width: 80%;
+    width: 100%;
     height: 300px;
     display: flex;
     background-color: #ffbdbd;
@@ -813,7 +808,7 @@ color: #dd4b39;
 }
 
 #menu-card-sub-container-butterscotch{
-    width: 80%;
+    width: 100%;
     height: 300px;
     display: flex;
     background-color: #fdd7a2;
@@ -836,85 +831,136 @@ color: #dd4b39;
     border-width: 2px;
 }
 
+/* Contact Us Page*/
+
+
+#contact-container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+height: 1000px;
+}
+
+#contact-container-left {
+width: 45%;
+height: 800px;
+background-color: rgba(108, 180, 238, 0.8);
+border-style: solid;
+border-width: 2px;
+border-color: #0a0a0a;
+border-radius: 15px;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+#contact-us-left {
+padding: 20px;
+}
+
+#fname,
+#lname,
+#email,
+#newsletter,
+#textarea {
+    margin: 10px;
+    font-size: 170%;
+    color: #012615;
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+input {
+    border-radius: 12px;
+}
+
+textarea {
+    font-family: 'Josefin sans', 'sans-serif';
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#textarea {
+    display: block;
+    margin: 0 auto; 
+}
+
+.submit-button {
+    background-color: #0a0a0a;
+    color: #6CB4EE;
+    font-family: 'Josefin sans', 'sans-serif';
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    width: 20%;
+    border-radius: 12px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    color: #a3d320;
+    background-color: #0a0a0a;
+}
+
+#google-map {
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: 1px;
+    border-style: solid;
+    box-sizing: border-box;  
+}
+
+#contact-container-right {
+    width: 45%;
+    height: 800px;
+    background-color: rgba(108, 180, 238, 0.8);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0a0a0a;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#contact-us-right {
+    padding: 20px;
+}
+
+#contact-us-right p {
+    font-size: 110%;
+    color: #012615;
+    text-align: center;
+}
+
+#address-scoops {
+    color: #0a0a0a;
+    font-weight: bold;
+    font-family: Ribeye, sans-serif;
+}
+
+#contact-container h2 {
+    font-size: 200%;
+}
+
+
 /* For screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     
 #about-us-container-1{
-    height: 800px;
+    height: 700px;
 }
-
-#about-us-img-container{
-height: 800px;
 }
-
-#about-us-history{
-    height: 800px;
-}
-
-#about-us-container-2{
-    width: 100%;
-    height: 2200px;
-}
-
-#cow-layout{
-    float: left;
-    padding: 20px;
-}
-
-#cow{
-    width: 100%;
-}
-
-#milking-layout{
-    float: left;
-    left: 0;
-    padding: 20px;
-}
-
-#milking{
-    width: 100%;
-}
-
-#cream-layout{
-    float: left;
-    left: 0;
-    padding: 20px;
-}
-
-#cream{
-    width: 100%;
-}
-
-#icecream-layout{
-    float: left;
-    left: 0;
-    padding: 20px;
-}
-
-#icecream{
-    width: 100%;
-}
-
-#cow-content{
-    margin: 0 auto;
-}
-
-#milking-content{
-    margin: 0 auto;
-}
-
-#cream-content{
-    margin: 0 auto;
-}
-
-#icecream-content{
-    margin: 0 auto;
-}
-
-}
-
-
 
 /* For screens size from 992px wide and down */
 
@@ -946,7 +992,7 @@ height: 800px;
 }
 
 #about-us-container-1{
-    height: 900px;
+    height: 900px;    
     display: inline-block;
 }
 
@@ -988,8 +1034,146 @@ height: 800px;
     font-size: 250%;
 }
 
+#milking-layout{
+    padding-left: 0%;
 }
 
+#cream-layout{
+    padding-left: 0%;
+}
+
+#icecream-layout{
+    padding-left: 0%;
+}
+
+#cow{
+    justify-content: center;
+}
+
+#milking{
+    justify-content: center;
+}
+
+#cream{
+    justify-content: center;
+}
+
+#icecream{
+    justify-content: center;
+}
+
+}
+
+/* For screens size from 750px wide and down */
+
+@media screen and (max-width: 750px) {
+
+#menu-card-container-outerlayout-1{
+    height: 4200px;
+    width: 80%;
+}
+
+#menu-card-container-outerlayout-2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#menu-card-container{
+    height: 4200px;
+}
+
+#menu-card-sub-container-chocolate{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-chocolate{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.icecream-text-container{
+    text-align: center;
+    display: inline;
+}
+
+.icecream-text-container h2{
+    font-size: 200%;
+}
+
+.icecream-text-container p{
+    font-size: 100%;
+}
+
+#menu-card-sub-container-strawberry{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-strawberry{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+#menu-card-sub-container-vanilla{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-vanilla{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+#menu-card-sub-container-pistachio{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-pistachio{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+#menu-card-sub-container-cherry{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-cherry{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+#menu-card-sub-container-butterscotch{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-butterscotch{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+}
 
 /* For screens size from 600px wide and down */
 
@@ -1085,111 +1269,6 @@ height: 800px;
     float: left;
 }
 
-.icecream-text-container{
-    width: 100%;
-    height: 300px;
-    float: left;
-}
-
-#menu-card-sub-container-chocolate{
-    width: 80%;
-    height: 600px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#icecream-image-container-chocolate{
-    width: 80%;
-    height: 200px;
-    float: left;
-    margin: 30px;
-}
-
-#menu-card-sub-container-strawberry{
-    width: 80%;
-    height: 600px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#icecream-image-container-strawberry{
-    width: 80%;
-    height: 200px;
-    float: left;
-    margin: 30px;
-}
-
-#menu-card-sub-container-vanilla{
-    width: 80%;
-    height: 600px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#icecream-image-container-vanilla{
-    width: 80%;
-    height: 200px;
-    float: left;
-    margin: 30px;
-}
-
-#menu-card-sub-container-pistachio{
-    width: 80%;
-    height: 600px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#icecream-image-container-pistachio{
-    width: 80%;
-    height: 200px;
-    float: left;
-    margin: 30px;
-}
-
-#menu-card-sub-container-cherry{
-    width: 80%;
-    height: 600px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#icecream-image-container-cherry{
-    width: 80%;
-    height: 200px;
-    float: left;
-    margin: 30px;
-}
-
-#menu-card-sub-container-butterscotch{
-    width: 80%;
-    height: 600px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#icecream-image-container-butterscotch{
-    width: 80%;
-    height: 200px;
-    float: left;
-    margin: 30px;
-}
-
-#menu-card-container{
-    height: 3800px;
-    padding-left: 30px;
-}
-
-#menu-heading-text{
-    font-size: 200%;
-}
-
 }
 
 /* For screens size from 400px wide and down */
@@ -1219,6 +1298,112 @@ height: 800px;
     top: 10%;
     left: 15%;
     scale: 0.6;
+}
+
+#about-us-container-2{
+    height: 3200px;
+}
+
+#cow{
+    height: 600px;
+}
+
+#milking{
+    height: 700px;
+}
+
+#cream{
+    height: 600px;
+}
+
+#icecream{
+    height: 600px;
+}
+
+#menu-card-container-outerlayout-1{
+    height: 3600px;
+}
+
+#menu-card-container{
+    height: 3600px;
+}
+
+#menu-card-sub-container-chocolate{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-chocolate{
+    width: 70%;
+    height: 200px;
+    margin: 5px auto;
+}
+
+#menu-card-sub-container-strawberry{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-strawberry{
+    width: 70%;
+    height: 200px;
+    margin: 5px auto;
+}
+
+#menu-card-sub-container-vanilla{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-vanilla{
+    width: 70%;
+    height: 200px;
+    margin: 5px auto;
+}
+
+#menu-card-sub-container-pistachio{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-pistachio{
+    width: 70%;
+    height: 200px;
+    margin: 5px auto;
+}
+
+#menu-card-sub-container-cherry{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-cherry{
+    width: 70%;
+    height: 200px;
+    margin: 5px auto;
+}
+
+#menu-card-sub-container-butterscotch{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#icecream-image-container-butterscotch{
+    width: 70%;
+    height: 200px;
+    margin: 5px auto;
 }
 
 footer ul li a {
@@ -1280,9 +1465,17 @@ footer ul li a {
 }
 
 #about-us-container-2{
-    width: 100%;
-    height: 2600px;
+    height: 2900px;
 }
+
+.icecream-text-container h2{
+    font-size: 120%;
+}
+
+.icecream-text-container p{
+    font-size: 90%;
+}
+
 
 footer ul li a {
     margin: 0 5px;
@@ -1291,6 +1484,30 @@ footer ul li a {
 
 #menu-heading-text{
     font-size: 150%;
+}
+
+}
+
+/* For screens size from 250px wide and down */
+
+@media screen and (max-width: 250px) {
+
+.img-container{
+    scale: 0.7;
+}
+
+}
+
+/* For screens size from 200px wide and down */
+
+@media screen and (max-width: 200px) {
+
+#about-us-container-2{
+    height: 3000px;
+}
+
+.img-container{
+    scale: 0.5;
 }
 
 }
