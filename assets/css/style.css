@@ -878,7 +878,7 @@ input {
 }
 
 textarea {
-    font-family: 'Josefin sans', 'sans-serif';
+    font-family: Merriweather, sans-serif;
     padding: 10px;
     border-radius: 15px;
 }
@@ -891,7 +891,7 @@ textarea {
 .submit-button {
     background-color: #0a0a0a;
     color: #6CB4EE;
-    font-family: 'Josefin sans', 'sans-serif';
+    font-family: Merriweather, sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: bold;
