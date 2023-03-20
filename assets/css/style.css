@@ -969,9 +969,9 @@ textarea {
     height: 800px;
 }
 
-#feedback h1{
+#feedback h2{
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2em;
     font-family: Ribeye, sans-serif;
     color: #6CB4EE;
     text-align: center;
