@@ -38,7 +38,7 @@ nav li{
 
 .menu a.active {
 background-color: #6CB4EE;
-color: white;
+color: black;
 }
 
 
@@ -68,11 +68,13 @@ color: white;
     margin: 0;
     float: left;
     text-align: center;
+    margin: 10px 0 0 10px;
 }
 
 
 #logo img{
     width: 50px;
+    height: 50px;
 }
 
 
@@ -276,7 +278,7 @@ color: white;
 
 
 #about-us-img-container{
-    background: url('../images/about-page-side-image.jpg') no-repeat center center; 
+    background: url('../images/about-page-side-image.webp') no-repeat center center; 
     background-size: cover;
     border-radius: 10%;    
     padding: 30px;
@@ -298,12 +300,12 @@ color: white;
 
 #who-are-we h2{
     font-family: "Merriweather", sans-serif;
-    color: #F8F0E3;
+    color: #ff4545;
     font-size: 400%;
     text-align: center;
     margin: auto;
+    -webkit-text-stroke: 2px black;
 }
-
 
 #about-us-history{
     width: 40%;
@@ -370,7 +372,7 @@ color: white;
 }
 
 #cow-img{
-    background: url('../images/cow.jpg') no-repeat center center;
+    background: url('../images/cow.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -390,7 +392,7 @@ color: white;
 }
 
 #milking-img {
-    background: url('../images/cow_milk.jpg') no-repeat center center;
+    background: url('../images/cow_milk.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -408,8 +410,8 @@ color: white;
     width: 50%;
 }
 
-#cream-img {
-    background: url('../images/fresh_cream.jpg') no-repeat center center;
+#cream-img{
+    background: url('../images/fresh_cream.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -428,7 +430,7 @@ color: white;
 }
 
 #icecream-img {
-    background: url('../images/icecream_production.jpg') no-repeat center center;
+    background: url('../images/icecream_production.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -617,7 +619,7 @@ color: #dd4b39;
 /* Menu Page */
 
 #menu-heading-background {
-    background-image: url('../images/menu-heading-background.jpg');
+    background-image: url('../images/menu-heading-background.webp');
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
@@ -706,7 +708,7 @@ color: #dd4b39;
 .icecream-text-container p{
     font-family: Inconsolata, sans-serif;
     font-weight: 300;
-    color: #FAF9F6;
+    color: #0a0a0a;
     margin: 10px;
     font-size: 200%;
 }
@@ -750,7 +752,7 @@ color: #dd4b39;
     width: 30%;
     height: 200px;
     display: flex;
-    background: url('../images/vanilla-icecream.jpg') no-repeat center center;
+    background: url('../images/vanilla-icecream.webp') no-repeat center center;
     background-size: cover;
     border-radius: 10%; 
     margin: auto 30px;
@@ -774,7 +776,7 @@ color: #dd4b39;
     width: 30%;
     height: 200px;
     display: flex;
-    background: url('../images/pista-icecream.jpg') no-repeat center center;
+    background: url('../images/pista-icecream.webp') no-repeat center center;
     background-size: cover;
     border-radius: 10%; 
     margin: auto 30px;
@@ -798,7 +800,7 @@ color: #dd4b39;
     width: 30%;
     height: 200px;
     display: flex;
-    background: url('../images/cherry-icecream.jpg') no-repeat center center;
+    background: url('../images/cherry-icecream.webp') no-repeat center center;
     background-size: cover;
     border-radius: 10%; 
     margin: auto 30px;
@@ -822,7 +824,7 @@ color: #dd4b39;
     width: 30%;
     height: 200px;
     display: flex;
-    background: url('../images/butterscotch-icecream.jpg') no-repeat center center;
+    background: url('../images/butterscotch-icecream.webp') no-repeat center center;
     background-size: cover;
     border-radius: 10%; 
     margin: auto 30px;
@@ -954,7 +956,7 @@ textarea {
     text-align: center;
 }
 
-#address-scoops {
+#address-iceville {
     color: #0a0a0a;
     font-weight: bold;
     font-family: Ribeye, sans-serif;
@@ -1343,6 +1345,10 @@ float: left;
 
 @media screen and (max-width: 400px) {
 
+#logo{
+    height: 50px;
+}
+
 #logo h1{
     font-size: 100%;
 }
@@ -1507,6 +1513,10 @@ footer ul li a {
 /* For screens size from 300px wide and down */
 
 @media screen and (max-width: 300px) {
+
+#logo{
+    height: 100px;
+}
 
 #homepage-background{
     height: 950px;

@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![ICE VILLE logo](assets/images/icecream-icon.webp) # ICE VILLE
 
 Welcome Zeeshan Shah,
 
@@ -105,4 +105,4 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 
 ---
 
-Happy coding!
+
