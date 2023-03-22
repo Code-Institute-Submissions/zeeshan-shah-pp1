@@ -5,8 +5,19 @@
 
 This is my first project on HTML and CSS. After a long thought process, I decided to create a website for an ice cream parlour which is located in Le Mars, Iowa. Le Mars is known as the ice cream capital of the United States of America. 
 
-## Table of Content
+The target audience are ice cream lovers living in and around Le Mars, Iowa.
+
+This website is the first of five projects that must be completed in order to earn a degree in software engineering from The Code Institute.
+
+Requirements for the project are that the website is static, responsive and uses HTML5 and CSS3.
+
+A live version of the project can be found here:
+[Project 1](https://zeeshan-shah.github.io/pp1/)
+
 ---
+
+## Table of Content
+
 
 * [User Experience](#user-experience)
     - [User Stories](#user-stories)
@@ -39,11 +50,10 @@ This is my first project on HTML and CSS. After a long thought process, I decide
     - [Acknowledgments](#acknowledgments)
     - [Useful Sources](#useful-sources)
 
-
-
+---
 
 ## User Experience
----
+
 ### User Stories
 
 #### Existing Users
@@ -56,7 +66,7 @@ This is my first project on HTML and CSS. After a long thought process, I decide
 
 * Find list of products available.
 * Ordering facility through online or via calls.
-* Find nearest parlour .
+* Find nearest parlour.
 * Find contact details.
 
 ### User Goals
@@ -71,11 +81,13 @@ This is my first project on HTML and CSS. After a long thought process, I decide
 
 A responsive website that offers all users the best possible user experience. A website with the best accessibility, easy to use for visually impaired people. All phases from website conception, development and deployment should be well documented and stored in GITHUB.
 
-## Design
 ---
+
+## Design
+
 ### Colour Scheme
 
-I wanted to choose colours that reflectes the colour of an ice which has slight blue tint. I chose black as its contrast. A bunch of different colours have been used in the menu page in order to elevate the craving for a delicious ice cream. 
+I wanted to choose colours that reflectes the colour of an ice which has slight blue tint. I chose black for contrast. Different colors were used on the menu page to increase people's desire for a delicious ice cream. 
 ![Colour scheme of the website](assets/images/colour-scheme-1.png)
 ![Colous scheme of the website](assets/images/colour-scheme-2.png)
 
@@ -85,17 +97,19 @@ The colour palette was created using [Coolors](https://coolors.co/).
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
-I have chosen multiple fonts for my project. I used Ribeye font for my Logo. This font gives an extra magnificent style to my logo. I have used Merriweather for my headings. It’s a solid, well constructed, legible serif and has a range of font weights available. For paragraphs, I used Inconsolata, which is a clean, stable font that reads well even in small size. Sans-Serif has been used as a fallback. Font weights of 300, 500 and 700 have been used on the website.
+I have selected multiple fonts for my project. I used the Ribeye font for my logo. This font gives my logo an extra awesome style. I used Merriweather for my headlines. It's a solid, well-constructed, legible serif and comes in a range of weights. For paragraphs, I used Inconsolata, a clean, stable font that's easy to read even at a small size. Sans serif was used as a fallback. Font weights of 300, 500 and 700 were used on the website.
 
 ### Images
 
-Images has been chosen in accordance to showcase the colourful ice cream parlour and providing a vaste range of flavours. 
+The images have been appropriately chosen to showcase the colorful ice cream parlor and offer a wide variety of flavors.
 
-Images has been sized in order to match design and has been changed to .webp format for better website performance. 
+Images have been resized to fit the theme and changed to .webp format for better site performance.
+
+---
 
 ## Features
----
-Thewebsite is comprised of 5 pages, the index page(landing page), about us page, menu page, contact page and the feedback page.
+
+The website consists of 5 pages, the index page (landing page), the about us page, the menu page, the contact page and the feedback page.
 
 ### Index Page
 
@@ -103,48 +117,50 @@ The index page has a background image covers whole screen. It has logo on the to
 
 ### About Us Page
 
-The about us page consists of a header, main section and a footer. The header has the logo on the top left side of the page. On the right side, Menu items are listed horizontally to navigate to the pages of the website.
+The About Us page consists of a header, a main area and a footer. The header has the logo at the top left of the page. On the right, menu items are listed horizontally for navigating to the pages of the site.
 
-The main section of the page contains a section that gives a brief history of the company and a nice colorful tempting image of outside of our parlour. Down on the about us page, there is a section giving an overview of qualities that we ensure in producing and delivering our products.
+The main part of the page contains a section giving a short history of the company and a beautiful, colorful, enticing picture from outside of our parlour. At the bottom of the About Us page there is a section that gives an overview of the qualities we ensure in the manufacture and delivery of our products.
 
-At the bottom of about us page there is a footer with social media links.
+At the bottom of the About Us page is a footer with links to social media.
 
 ### Menu Page
 
-The menu page also comprise of a header, main section and a footer. The header section is similar to the about us page with menu anchor to be active this time.
+The menu page also consists of a header, a main section, and a footer. The header is similar to the About Us page, but this time the menu anchor is active.
 
-The main section of this page contains severals blocks describing the flavours available at Ice Ville.
+The main section of this page contains several blocks that describe the flavours available at Ice Ville.
 
-A footer is present at the bottom of the page.
+There is a footer at the bottom of the page.
 
 ### Contact Page
 
-The contact page also contains all three sections as other pages. 
+The contact page contains all three areas as well as other pages.
 
-The main section has a contact form for the customers to contact us and give us their feedback. The user will be asked to submit their full name and email address. After clicking the send button it redirects the User to the feedback page with a message. On the right side of the section it shows our parlour location on Google map.
+The main area contains a contact form that customers can use to contact us and give us their feedback. The user will be asked to provide their full name and email address. After clicking the send button, the user will be redirected to the feedback page with a message. On the right side of the section is the location of our parlour on the Google map.
+
+---
 
 ## Technologies Used
----
+
 * HTML 
 * CSS
 
-## Testing
 ---
 
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
+## Testing
 
-During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
+Testing continued throughout the build. I used Chrome developer tools during the build to locate and fix issues over time.
 
-I have gone through each page using google chrome developer tools to ensure that each page is responsive on a variety of different screen sizes and devices.
+During development I used Google developer tools to make sure everything was working properly and to help troubleshoot when things weren't working as expected.
 
-During the css validation of style.css, I got some errors which are related to the scale property. With some assistance from a tutor I was successful to resolve it. Instead of using scale I should have used transform:scale() property. 
+I checked each page using the Google Chrome developer tools to ensure each page is responsive on a variety of different screen sizes and devices.
 
-The initial lighthouse test was not giving satisfactory scores especially in performance category. After some research I found the images used on my website were in either png or jpg formats, which is not ideal for a html file. Therefore I converted them all into .webp format.
+During CSS validation of style.css I got some errors related to Scale property. With some help from a tutor I was successful in solving it. Instead of scale, I should have used the transform:scale() property.
 
+![CSS-Validation-Erros](assets/images/ccs-issue-scale.png)
 
+The initial lighthouse test was unsatisfactory, especially in the performance class. After some research, I found that the images used on my website are in either PNG or JPG format, which is not ideal for an HTML file. So I converted them all to .webp format.
 
 ### W3C Validator
----
 
 #### HTML Validation
 
@@ -162,7 +178,7 @@ The initial lighthouse test was not giving satisfactory scores especially in per
 ![style.css validation](assets/images/css-validation.png)
 
 ### Lighthouse
----
+
 #### Lighthouse Test - Index Page
 
 ![lighthouse test on index page](assets/images/lighthouse-index.png)
@@ -179,14 +195,15 @@ The initial lighthouse test was not giving satisfactory scores especially in per
 
 ![lighthouse test on contact page](assets/images/lighthouse-contact.png)
 
-The contact us page lacks the best performance rating due to a few issues including importing external resources like google fonts and the google map.
+The contact us page is missing the best performance rating due to some issues including importing external resources like google fonts and google map.
+
+---
 
 ## Development and Deployment
----
 
 ### Development
 
-The development of this project started with a thought process and some rough sketches of the structure of my imagined website. 
+The development of this project started with a thought process and some rough sketches of the structure of my website.
 
 * Sketch of the Index/Landing Page:
 
@@ -211,8 +228,9 @@ The procedure for deployment followed the "Creating your site" steps provided in
 5. At the "Source" section choose ”main” as Branch and root as folder and click "Save".
 6. The website will be deployed in few minutes and the page URL will be displayed above "Source".
 
-## Credits
 ---
+
+## Credits
 
 ### Content
 
