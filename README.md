@@ -32,6 +32,7 @@ A live version of the project can be found here:
     - [About us Page](#about-us-page)
     - [Menu Page](#menu-page)
     - [Contact Page](#contact-page)
+    - [Feedback Page](#feedback-page)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
     - [W3C Validator](#w3c-validator)
@@ -115,19 +116,39 @@ The website consists of 5 pages, the index page (landing page), the about us pag
 
 The index page has a background image covers whole screen. It has logo on the top left side of the page. It contains three navigation links(appears as buttons) that are anchored to pages on the website. On the bottom of the index page, the footer containing four social media links (Facebook, Twitter, Instagram and Google Plus). The code for the footer is borrowed from the [Stockin](https://codepen.io/Stockin/pen/bzdNOq).
 
+![Index page](assets/images/index-page.png)
+
 ### About Us Page
 
 The About Us page consists of a header, a main area and a footer. The header has the logo at the top left of the page. On the right, menu items are listed horizontally for navigating to the pages of the site.
 
-The main part of the page contains a section giving a short history of the company and a beautiful, colorful, enticing picture from outside of our parlour. At the bottom of the About Us page there is a section that gives an overview of the qualities we ensure in the manufacture and delivery of our products.
+Navigation bar:
+
+![Navigation bar](assets/images/nav-bar.png)
+
+The main part of the page contains a section giving a short history of the company and a beautiful, colorful, enticing picture from outside of our parlour. 
+
+![Our history](assets/images/our-history.png)
+
+At the bottom of the About Us page there is a section that gives an overview of the qualities we ensure in the manufacture and delivery of our products.
+
+![Our quality](assets/images/our-quality.png)
 
 At the bottom of the About Us page is a footer with links to social media.
+
+![The footer](assets/images/footer.png)
 
 ### Menu Page
 
 The menu page also consists of a header, a main section, and a footer. The header is similar to the About Us page, but this time the menu anchor is active.
 
-The main section of this page contains several blocks that describe the flavours available at Ice Ville.
+![Navigation bar menu active](assets/images/nav-bar-menu-active.png)
+
+The main section of this page has the heading "Our Menu" and contains several blocks that describe the flavours available at Ice Ville.
+
+![Our menu](assets/images/our-menu.png)
+
+![Navigation bar menu active](assets/images/nav-bar-menu-active.png)
 
 There is a footer at the bottom of the page.
 
@@ -135,7 +156,17 @@ There is a footer at the bottom of the page.
 
 The contact page contains all three areas as well as other pages.
 
+![Navigation bar contact active](assets/images/nav-bar-contact-active.png)
+
 The main area contains a contact form that customers can use to contact us and give us their feedback. The user will be asked to provide their full name and email address. After clicking the send button, the user will be redirected to the feedback page with a message. On the right side of the section is the location of our parlour on the Google map.
+
+![Contact page](assets/images/contact-page.png)
+
+### Feedback Page
+
+After filling out the contact form on the contact page and clicking the submit button, the user is redirected to the feedback page where a short thank you message is displayed.
+
+![Feedback page](assets/images/feedback-page.png)
 
 ---
 
