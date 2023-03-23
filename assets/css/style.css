@@ -637,7 +637,7 @@ ul li a:hover:nth-child(4) {
 }
 
 /* Menu Page */
-/* Pattern backgroung */
+/* Pattern background */
 #menu-heading-background {
     background-image: url('../images/menu-heading-background.webp');
     background-repeat: no-repeat;
@@ -1265,7 +1265,6 @@ textarea {
         margin: 10px auto;
     }
 
-
     .text-input{
         width: 60%;
     }
@@ -1376,7 +1375,7 @@ textarea {
     .submit-button {
         width: 40%;
     }
-
+    
 }
 
 /* For screens size from 400px wide and down */
