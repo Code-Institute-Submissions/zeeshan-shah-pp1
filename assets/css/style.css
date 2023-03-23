@@ -11,9 +11,9 @@
 /* Navigation Links */
 
 .menu{
-overflow: hidden;
-background-color: #0a0a0a;
-padding: 20px 10px;
+    overflow: hidden;
+    background-color: #0a0a0a;
+    padding: 20px 10px;
 }
 
 .menu a{
@@ -37,10 +37,9 @@ nav li{
 }
 
 .menu a.active {
-background-color: #6CB4EE;
-color: #0a0a0a;
+    background-color: #6CB4EE;
+    color: #0a0a0a;
 }
-
 
 /* Homepage*/
 
@@ -71,12 +70,12 @@ color: #0a0a0a;
     margin: 10px 0 0 10px;
 }
 
-
 #logo img{
     width: 50px;
     height: 50px;
 }
 
+/* Menu nav on index page*/
 
 #menu-window{    
     background-color: rgba(54,69,79, .2);
@@ -122,6 +121,8 @@ color: #0a0a0a;
     width: 45%;
 }
 
+/* Menu nav animation on index page */
+
 #menu-window:hover{
     transform: scale(1.1);
 }
@@ -139,6 +140,8 @@ color: #0a0a0a;
     border-color: #03c04a;
     border-width: 5px;
 }
+
+/* About-us nav on index page*/
 
 #about-window{    
     background-color: rgba(54,69,79, .2);
@@ -184,6 +187,8 @@ color: #0a0a0a;
     width: 45%;
 }
 
+/* About-us nav animation on index page */
+
 #about-window:hover{
     transform: scale(1.1);
 }
@@ -201,6 +206,8 @@ color: #0a0a0a;
     border-color: #03c04a;
     border-width: 5px;
 }
+
+/* Contact nav on index page */
 
 #contact-window{    
     background-color: rgba(54,69,79, .2);
@@ -246,6 +253,8 @@ color: #0a0a0a;
     width: 45%;
 }
 
+/* Contact nav animation on index page */
+
 #contact-window:hover{
     transform: scale(1.1);
 }
@@ -265,6 +274,7 @@ color: #0a0a0a;
 }
 
 /* About Us Page */
+/* Our history container on about us page */
 
 #about-us-container-1{
     width: 100%;
@@ -273,9 +283,7 @@ color: #0a0a0a;
     gap: 20px 30px;
     padding-top: 10px;
     margin-top: 30px;
-
 }
-
 
 #about-us-img-container{
     background: url('../images/about-page-side-image.webp') no-repeat center center; 
@@ -325,6 +333,8 @@ color: #0a0a0a;
     font-size: 120%;
     margin: 20px;
 }
+
+/* Our quality container on about us page */
 
 #about-us-container-2{
     width: 100%;
@@ -392,7 +402,7 @@ color: #0a0a0a;
 }
 
 #milking-img {
-    background: url('../images/cow_milk.webp') no-repeat center center;
+    background: url('../images/cow-milk.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -411,7 +421,7 @@ color: #0a0a0a;
 }
 
 #cream-img{
-    background: url('../images/fresh_cream.webp') no-repeat center center;
+    background: url('../images/fresh-cream.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -430,14 +440,12 @@ color: #0a0a0a;
 }
 
 #icecream-img {
-    background: url('../images/icecream_production.webp') no-repeat center center;
+    background: url('../images/icecream-production.webp') no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-
-
 
 .img-container{
     width: 270px;
@@ -505,6 +513,8 @@ footer ul li a {
     margin: 0 30px;
     transition:.5s;
 }
+
+/* Social media icons animation */
 
 footer ul li a span {
     position:absolute;
@@ -576,37 +586,47 @@ footer ul li a:hover span:nth-child(4) {
 }
   
 .facebook:hover {
-color: #3b5998;
+    color: #3b5998;
 }
+
 .facebook:hover span { 
-background: #3b5998;
+    background: #3b5998;
 }
+
 .twitter:hover {
-color: #1da1f2;
+    color: #1da1f2;
 }
+
 .twitter:hover span { 
-background: #1da1f2;
+    background: #1da1f2;
 }
+
 .instagram:hover {
-color: #c32aa3;
+    color: #c32aa3;
 }
+
 .instagram:hover span { 
-background: #c32aa3;
+    background: #c32aa3;
 }
+
 .google:hover {
-color: #dd4b39;
+    color: #dd4b39;
 }
+
 .google:hover span { 
-background: #dd4b39;
+    background: #dd4b39;
 }
+
 ul li a .twitter {
-color: #1da1f2;
+    color: #1da1f2;
 }
+
 ul li a:hover:nth-child(3) {
-color: #c32aa3;
+    color: #c32aa3;
 }
+
 ul li a:hover:nth-child(4) {
-color: #dd4b39;
+    color: #dd4b39;
 }
 
 .footer-layout{
@@ -616,9 +636,8 @@ color: #dd4b39;
     position: relative;
 }
 
-
 /* Menu Page */
-
+/* Pattern backgroung */
 #menu-heading-background {
     background-image: url('../images/menu-heading-background.webp');
     background-repeat: no-repeat;
@@ -647,6 +666,8 @@ color: #dd4b39;
     transform: translate(-50%, -50%); 
 }
 
+/*Layout to define structure for all container of ice cream flavours */
+
 #menu-card-container-outerlayout-1{
     width: 90%;
     height: 2200px;
@@ -661,6 +682,8 @@ color: #dd4b39;
     display: inline-block;
     padding-top: 10px;
 }
+
+/* Chocolate container */
 
 #menu-card-sub-container-chocolate{
     width: 100%;
@@ -713,6 +736,8 @@ color: #dd4b39;
     font-size: 200%;
 }
 
+/* Strawberry container */
+
 #menu-card-sub-container-strawberry{
     width: 100%;
     height: 300px;
@@ -736,6 +761,8 @@ color: #dd4b39;
     border-style: solid;
     border-width: 2px;
 }
+
+/* Vanilla container */
 
 #menu-card-sub-container-vanilla{
     width: 100%;
@@ -761,6 +788,8 @@ color: #dd4b39;
     border-width: 2px;
 }
 
+/* Pistachio container */
+
 #menu-card-sub-container-pistachio{
     width: 100%;
     height: 300px;
@@ -785,6 +814,8 @@ color: #dd4b39;
     border-width: 2px;
 }
 
+/* Cherry container */
+
 #menu-card-sub-container-cherry{
     width: 100%;
     height: 300px;
@@ -808,6 +839,8 @@ color: #dd4b39;
     border-style: solid;
     border-width: 2px;
 }
+
+/* Butter scotch container */
 
 #menu-card-sub-container-butterscotch{
     width: 100%;
@@ -835,28 +868,29 @@ color: #dd4b39;
 
 /* Contact Us Page*/
 
-
 #contact-container {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 1000px;
 }
 
+/* Contact Form */
+
 #contact-container-left {
-width: 45%;
-height: 800px;
-background-color: rgba(108, 180, 238, 0.8);
-border-style: solid;
-border-width: 2px;
-border-color: #0a0a0a;
-border-radius: 15px;
-margin: 0 auto;
-margin-top: 50px;
+    width: 45%;
+    height: 800px;
+    background-color: rgba(108, 180, 238, 0.8);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0a0a0a;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 #contact-us-left {
-padding: 20px;
+    padding: 20px;
 }
 
 #fname,
@@ -923,16 +957,7 @@ textarea {
     background-color: #0a0a0a;
 }
 
-#google-map {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-    border-radius: 15px;
-    margin: 0 auto;
-    border: 1px;
-    border-style: solid;
-    box-sizing: border-box;  
-}
+/* Right side container on contact page for Google map and address */
 
 #contact-container-right {
     width: 45%;
@@ -956,6 +981,19 @@ textarea {
     text-align: center;
 }
 
+/* Google map */
+
+#google-map {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: 1px;
+    border-style: solid;
+    box-sizing: border-box;  
+}
+
 #address-iceville {
     color: #0a0a0a;
     font-weight: bold;
@@ -965,6 +1003,8 @@ textarea {
 #contact-container h2 {
     font-size: 200%;
 }
+
+/* Feedback page */
 
 #feedback{
     width: 100%;
@@ -982,137 +1022,137 @@ textarea {
 /* For screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    
-#about-us-container-1{
-    height: 700px;
-}
 
-#contact-container-layout{
-    width: 90%;
-    height: 2000px;
-    margin: 0 auto;
-}
+    /* increase the height of history container */
+    #about-us-container-1{
+        height: 700px;
+    }
 
-#contact-container {
-    width: 100%;
-    height: 2000px;
-    display: inline-block;
-    margin: 0 auto;
-}
-    
-#contact-container-left {
-width: 100%;
-height: 800px;
-float: left;
-}
+    #contact-container-layout{
+        width: 90%;
+        height: 2000px;
+        margin: 0 auto;
+    }
 
-#contact-container-right {
-width: 100%;
-height: 800px;
-float: left;
-}
+    #contact-container {
+        width: 100%;
+        height: 2000px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+        
+    #contact-container-left {
+        width: 100%;
+        height: 800px;
+        float: left;
+    }
 
+    #contact-container-right {
+        width: 100%;
+        height: 800px;
+        float: left;
+    }
 }
 
 /* For screens size from 992px wide and down */
 
 @media screen and (max-width: 992px) {
 
-#menu-window{    
-    position: relative;
-    top: 70%;
-    left: 15%;
-}
+    #menu-window{    
+        position: relative;
+        top: 70%;
+        left: 15%;
+    }
 
-#about-window{    
-    position: relative;
-    top: 70%;
-    left: 30%;
-}
+    #about-window{    
+        position: relative;
+        top: 70%;
+        left: 30%;
+    }
 
-#contact-window{    
-    position: relative;
-    top: 70%;
-    left: 45%;
-}
+    #contact-window{    
+        position: relative;
+        top: 70%;
+        left: 45%;
+    }
 
-.menu a {
-    float: none;
-    display: block;
-    text-align: left;
-    clear: left;
-}
+    .menu a {
+        float: none;
+        display: block;
+        text-align: left;
+        clear: left;
+    }
 
-#about-us-container-1{
-    height: 900px;    
-    display: inline-block;
-}
+    #about-us-container-1{
+        height: 900px;    
+        display: inline-block;
+    }
 
-#about-us-img-container{
-    width: 90%;
-    height: 400px;
-    margin: 0 auto;
-}
-    
-#about-us-history{
-    width: 100%;
-}
+    #about-us-img-container{
+        width: 90%;
+        height: 400px;
+        margin: 0 auto;
+    }
+        
+    #about-us-history{
+        width: 100%;
+    }
 
-#about-us-history h2{
-    margin: 7%;
-}
+    #about-us-history h2{
+        margin: 7%;
+    }
 
-#about-us-container-2{
-    width: 100%;
-    height: 2200px;
-}
+    #about-us-container-2{
+        width: 100%;
+        height: 2200px;
+    }
 
-#who-are-we{
-    width: 40%;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-}
+    #who-are-we{
+        width: 40%;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
 
-.icecream-text-container h2{
-    font-size: 200%;
-}
+    .icecream-text-container h2{
+        font-size: 200%;
+    }
 
-.icecream-text-container p{
-    font-size: 150%;
-}
+    .icecream-text-container p{
+        font-size: 150%;
+    }
 
-#menu-heading-text{
-    font-size: 250%;
-}
+    #menu-heading-text{
+        font-size: 250%;
+    }
 
-#milking-layout{
-    padding-left: 0%;
-}
+    #milking-layout{
+        padding-left: 0%;
+    }
 
-#cream-layout{
-    padding-left: 0%;
-}
+    #cream-layout{
+        padding-left: 0%;
+    }
 
-#icecream-layout{
-    padding-left: 0%;
-}
+    #icecream-layout{
+        padding-left: 0%;
+    }
 
-#cow{
-    justify-content: center;
-}
+    #cow{
+        justify-content: center;
+    }
 
-#milking{
-    justify-content: center;
-}
+    #milking{
+        justify-content: center;
+    }
 
-#cream{
-    justify-content: center;
-}
+    #cream{
+        justify-content: center;
+    }
 
-#icecream{
-    justify-content: center;
-}
+    #icecream{
+        justify-content: center;
+    }
 
 }
 
@@ -1120,124 +1160,123 @@ float: left;
 
 @media screen and (max-width: 750px) {
 
-#menu-card-container-outerlayout-1{
-    height: 4200px;
-    width: 80%;
-}
+    #menu-card-container-outerlayout-1{
+        height: 4200px;
+        width: 80%;
+    }
 
-#menu-card-container-outerlayout-2{
-    width: 90%;
-    margin: 0 auto;
-}
+    #menu-card-container-outerlayout-2{
+        width: 90%;
+        margin: 0 auto;
+    }
 
-#menu-card-container{
-    height: 4200px;
-}
+    #menu-card-container{
+        height: 4200px;
+    }
 
-#menu-card-sub-container-chocolate{
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-chocolate{
+        width: 100%;
+        height: 600px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-chocolate{
-    width: 70%;
-    height: 300px;
-    margin: 10px auto;
-}
+    #icecream-image-container-chocolate{
+        width: 70%;
+        height: 300px;
+        margin: 10px auto;
+    }
 
-.icecream-text-container{
-    text-align: center;
-    display: inline;
-}
+    .icecream-text-container{
+        text-align: center;
+        display: inline;
+    }
 
-.icecream-text-container h2{
-    font-size: 200%;
-}
+    .icecream-text-container h2{
+        font-size: 200%;
+    }
 
-.icecream-text-container p{
-    font-size: 100%;
-}
+    .icecream-text-container p{
+        font-size: 100%;
+    }
 
-#menu-card-sub-container-strawberry{
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-strawberry{
+        width: 100%;
+        height: 600px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-strawberry{
-    width: 70%;
-    height: 300px;
-    margin: 10px auto;
-}
+    #icecream-image-container-strawberry{
+        width: 70%;
+        height: 300px;
+        margin: 10px auto;
+    }
 
-#menu-card-sub-container-vanilla{
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-vanilla{
+        width: 100%;
+        height: 600px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-vanilla{
-    width: 70%;
-    height: 300px;
-    margin: 10px auto;
-}
+    #icecream-image-container-vanilla{
+        width: 70%;
+        height: 300px;
+        margin: 10px auto;
+    }
 
-#menu-card-sub-container-pistachio{
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-pistachio{
+        width: 100%;
+        height: 600px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-pistachio{
-    width: 70%;
-    height: 300px;
-    margin: 10px auto;
-}
+    #icecream-image-container-pistachio{
+        width: 70%;
+        height: 300px;
+        margin: 10px auto;
+    }
 
-#menu-card-sub-container-cherry{
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-cherry{
+        width: 100%;
+        height: 600px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-cherry{
-    width: 70%;
-    height: 300px;
-    margin: 10px auto;
-}
+    #icecream-image-container-cherry{
+        width: 70%;
+        height: 300px;
+        margin: 10px auto;
+    }
 
-#menu-card-sub-container-butterscotch{
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-butterscotch{
+        width: 100%;
+        height: 600px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-butterscotch{
-    width: 70%;
-    height: 300px;
-    margin: 10px auto;
-}
+    #icecream-image-container-butterscotch{
+        width: 70%;
+        height: 300px;
+        margin: 10px auto;
+    }
 
 
-.text-input{
-    width: 60%;
-}
+    .text-input{
+        width: 60%;
+    }
 
-.email{
-    width: 60%;
-}
+    .email{
+        width: 60%;
+    }
 
-.message-field{
-    width: 80%;
-}
-
+    .message-field{
+        width: 80%;
+    }
 
 }
 
@@ -1245,99 +1284,98 @@ float: left;
 
 @media screen and (max-width: 600px) {
 
+    #logo {
+        height: 200px;
+    }
 
-#logo {
-    height: 200px;
-}
+    #logo h1{
+        font-size: 150%;
+    }
 
-#logo h1{
-    font-size: 150%;
-}
+    #menu-window{    
+        position: relative;
+        top: 30%;
+        left: 25%;
+        transform: scale(0.8);
+    }
 
-#menu-window{    
-    position: relative;
-    top: 30%;
-    left: 25%;
-    transform: scale(0.8);
-}
+    #about-window{    
+        position: relative;
+        top: 30%;
+        left: 25%;
+        transform: scale(0.8);
+    }
 
-#about-window{    
-    position: relative;
-    top: 30%;
-    left: 25%;
-    transform: scale(0.8);
-}
+    #contact-window{    
+        position: relative;
+        top: 30%;
+        left: 25%;
+        transform: scale(0.8);
+    }
 
-#contact-window{    
-    position: relative;
-    top: 30%;
-    left: 25%;
-    transform: scale(0.8);
-}
+    #who-are-we{
+        transform: scale(0.8);
+    }
 
-#who-are-we{
-    transform: scale(0.8);
-}
+    #about-us-container-2{
+        width: 100%;
+        height: 2800px;
+    }
 
-#about-us-container-2{
-    width: 100%;
-    height: 2800px;
-}
+    #cow{
+        width: 100%;
+        display: inline-block;
+        height: 500px;
+    }
 
-#cow{
-    width: 100%;
-    display: inline-block;
-    height: 500px;
-}
+    #cow-content{
+        width: 100%;
+        float: left;
+    }
 
-#cow-content{
-    width: 100%;
-    float: left;
-}
+    .img-container{
+        float: left;
+        clear: both;
+        width: 100%;
+        margin: 10px auto;
+    }
 
-.img-container{
-    float: left;
-    clear: both;
-    width: 100%;
-    margin: 10px auto;
-}
+    #milking{
+        width: 100%;
+        display: inline-block;
+        height: 600px;
+    }
 
-#milking{
-    width: 100%;
-    display: inline-block;
-    height: 600px;
-}
+    #milking-content{
+        width: 100%;
+        float: left;
+    }
 
-#milking-content{
-    width: 100%;
-    float: left;
-}
+    #cream{
+        width: 100%;
+        display: inline-block;
+        height: 500px;
+    }
 
-#cream{
-    width: 100%;
-    display: inline-block;
-    height: 500px;
-}
+    #cream-content{
+        width: 100%;
+        float: left;
+    }
 
-#cream-content{
-    width: 100%;
-    float: left;
-}
+    #icecream{
+        width: 100%;
+        display: inline-block;
+        height: 600px;
+    }
 
-#icecream{
-    width: 100%;
-    display: inline-block;
-    height: 600px;
-}
+    #icecream-content{
+        width: 100%;
+        float: left;
+    }
 
-#icecream-content{
-    width: 100%;
-    float: left;
-}
-
-.submit-button {
-    width: 40%;
-}
+    .submit-button {
+        width: 40%;
+    }
 
 }
 
@@ -1345,168 +1383,168 @@ float: left;
 
 @media screen and (max-width: 400px) {
 
-#logo{
-    height: 50px;
-}
+    #logo{
+        height: 50px;
+    }
 
-#logo h1{
-    font-size: 100%;
-}
+    #logo h1{
+        font-size: 100%;
+    }
 
-#menu-window{    
-    position: relative;
-    top: 30%;
-    left: 15%;
-    transform: scale(0.6);
-}
+    #menu-window{    
+        position: relative;
+        top: 30%;
+        left: 15%;
+        transform: scale(0.6);
+    }
 
-#about-window{    
-    position: relative;
-    top: 10%;
-    left: 15%;
-    transform: scale(0.6);
-}
+    #about-window{    
+        position: relative;
+        top: 10%;
+        left: 15%;
+        transform: scale(0.6);
+    }
 
-#contact-window{    
-    position: relative;
-    top: 10%;
-    left: 15%;
-    transform: scale(0.6);
-}
+    #contact-window{    
+        position: relative;
+        top: 10%;
+        left: 15%;
+        transform: scale(0.6);
+    }
 
-#about-us-container-2{
-    height: 3200px;
-}
+    #about-us-container-2{
+        height: 3200px;
+    }
 
-#cow{
-    height: 600px;
-}
+    #cow{
+        height: 600px;
+    }
 
-#milking{
-    height: 700px;
-}
+    #milking{
+        height: 700px;
+    }
 
-#cream{
-    height: 600px;
-}
+    #cream{
+        height: 600px;
+    }
 
-#icecream{
-    height: 600px;
-}
+    #icecream{
+        height: 600px;
+    }
 
-#menu-card-container-outerlayout-1{
-    height: 3600px;
-}
+    #menu-card-container-outerlayout-1{
+        height: 3600px;
+    }
 
-#menu-card-container{
-    height: 3600px;
-}
+    #menu-card-container{
+        height: 3600px;
+    }
 
-#menu-card-sub-container-chocolate{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-chocolate{
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-chocolate{
-    width: 70%;
-    height: 200px;
-    margin: 5px auto;
-}
+    #icecream-image-container-chocolate{
+        width: 70%;
+        height: 200px;
+        margin: 5px auto;
+    }
 
-#menu-card-sub-container-strawberry{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-strawberry{
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-strawberry{
-    width: 70%;
-    height: 200px;
-    margin: 5px auto;
-}
+    #icecream-image-container-strawberry{
+        width: 70%;
+        height: 200px;
+        margin: 5px auto;
+    }
 
-#menu-card-sub-container-vanilla{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-vanilla{
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-vanilla{
-    width: 70%;
-    height: 200px;
-    margin: 5px auto;
-}
+    #icecream-image-container-vanilla{
+        width: 70%;
+        height: 200px;
+        margin: 5px auto;
+    }
 
-#menu-card-sub-container-pistachio{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-pistachio{
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-pistachio{
-    width: 70%;
-    height: 200px;
-    margin: 5px auto;
-}
+    #icecream-image-container-pistachio{
+        width: 70%;
+        height: 200px;
+        margin: 5px auto;
+    }
 
-#menu-card-sub-container-cherry{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-cherry{
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-cherry{
-    width: 70%;
-    height: 200px;
-    margin: 5px auto;
-}
+    #icecream-image-container-cherry{
+        width: 70%;
+        height: 200px;
+        margin: 5px auto;
+    }
 
-#menu-card-sub-container-butterscotch{
-    width: 100%;
-    height: 500px;
-    display: inline-block;
-    justify-content: center;
-}
+    #menu-card-sub-container-butterscotch{
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        justify-content: center;
+    }
 
-#icecream-image-container-butterscotch{
-    width: 70%;
-    height: 200px;
-    margin: 5px auto;
-}
+    #icecream-image-container-butterscotch{
+        width: 70%;
+        height: 200px;
+        margin: 5px auto;
+    }
 
-footer ul li a {
-    margin: 0 10px;
-}
+    footer ul li a {
+        margin: 0 10px;
+    }
 
-::placeholder {
-    font-size: 60%;
-}
+    ::placeholder {
+        font-size: 60%;
+    }
 
-#contact-container-layout {
-    height: 2400px;
-}
+    #contact-container-layout {
+        height: 2400px;
+    }
 
-#contact-container {
-    height: 2400px;
-}
+    #contact-container {
+        height: 2400px;
+    }
 
-#contact-container-left {
-    height: 1000px;
-}
+    #contact-container-left {
+        height: 1000px;
+    }
 
-#contact-container-right {
-    height: 1000px;
-}
+    #contact-container-right {
+        height: 1000px;
+    }
 
-.submit-button {
-    transform: scale(0.6);
-}
+    .submit-button {
+        transform: scale(0.6);
+    }
 
 }
 
@@ -1514,88 +1552,87 @@ footer ul li a {
 
 @media screen and (max-width: 300px) {
 
-#logo{
-    height: 100px;
-}
+    #logo{
+        height: 100px;
+    }
 
-#homepage-background{
-    height: 950px;
-}
+    #homepage-background{
+        height: 950px;
+    }
 
-#menu-window{
-    left: 5%;
-}
+    #menu-window{
+        left: 5%;
+    }
 
-#about-window{
-    left: 5%;
-}
+    #about-window{
+        left: 5%;
+    }
 
-#contact-window{
-    left: 5%;
-}
+    #contact-window{
+        left: 5%;
+    }
 
-#who-are-we{
-    transform: scale(0.6);
-}
+    #who-are-we{
+        transform: scale(0.6);
+    }
 
-#about-us-history h2{
-    font-size: 200%;
-}
+    #about-us-history h2{
+        font-size: 200%;
+    }
 
-#our-quality > h2{
-    font-size: 250%;
-}
+    #our-quality > h2{
+        font-size: 250%;
+    }
 
-#cow-layout{
-    transform: scale(0.8);
-    padding: 0;
-}
+    #cow-layout{
+        transform: scale(0.8);
+        padding: 0;
+    }
 
-#milking-layout{
-    transform: scale(0.8);
-    padding: 0;
-}
+    #milking-layout{
+        transform: scale(0.8);
+        padding: 0;
+    }
 
-#cream-layout{
-    transform: scale(0.8);
-    padding: 0;
-}
+    #cream-layout{
+        transform: scale(0.8);
+        padding: 0;
+    }
 
-#icecream-layout{
-    transform: scale(0.8);
-    padding: 0;
-}
+    #icecream-layout{
+        transform: scale(0.8);
+        padding: 0;
+    }
 
-#about-us-container-2{
-    height: 2900px;
-}
+    #about-us-container-2{
+        height: 2900px;
+    }
 
-.icecream-text-container h2{
-    font-size: 120%;
-}
+    .icecream-text-container h2{
+        font-size: 120%;
+    }
 
-.icecream-text-container p{
-    font-size: 90%;
-}
+    .icecream-text-container p{
+        font-size: 90%;
+    }
 
 
-footer ul li a {
-    margin: 0 5px;
-    font-size: 10px;
-}
+    footer ul li a {
+        margin: 0 5px;
+        font-size: 10px;
+    }
 
-#menu-heading-text{
-    font-size: 150%;
-}
+    #menu-heading-text{
+        font-size: 150%;
+    }
 
-.submit-button {
-    width: 50%;
-}
+    .submit-button {
+        width: 50%;
+    }
 
-#contact-container h2 {
-    font-size: 150%;
-}
-
+    #contact-container h2 {
+        font-size: 150%;
+    }
 
 }
 
@@ -1603,9 +1640,9 @@ footer ul li a {
 
 @media screen and (max-width: 250px) {
 
-.img-container{
-    transform: scale(0.7);
-}
+    .img-container{
+        transform: scale(0.7);
+    }
 
 }
 
@@ -1613,23 +1650,23 @@ footer ul li a {
 
 @media screen and (max-width: 200px) {
 
-#about-us-container-2{
-    height: 3000px;
-}
+    #about-us-container-2{
+        height: 3000px;
+    }
 
-.img-container{
-    transform: scale(0.5);
-}
+    .img-container{
+        transform: scale(0.5);
+    }
 
-.submit-button {
-    width: 80%;
-    font-size: 80%;
-}
+    .submit-button {
+        width: 80%;
+        font-size: 80%;
+    }
 
-label {
-    width: 110px;
-    display: inline-block;
-    font-size: 1.25em;
-}
+    label {
+        width: 110px;
+        display: inline-block;
+        font-size: 1.25em;
+    }
 
 }

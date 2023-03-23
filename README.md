@@ -1,7 +1,7 @@
 # ICE VILLE
 
 
-![How responsive is my website on different devices?](assets/images/how_responsive_my_website.png)
+![How responsive is my website on different devices?](assets/images/how-responsive-my-website.png)
 
 This is my first project on HTML and CSS. After a long thought process, I decided to create a website for an ice cream parlour which is located in Le Mars, Iowa. Le Mars is known as the ice cream capital of the United States of America. 
 
@@ -113,7 +113,7 @@ The website consists of 5 pages, the index page (landing page), the about us pag
 
 ### Index Page
 
-The index page has a background image covers whole screen. It has logo on the top left side of the page. It contains three buttons that are anchored to pages on the website. On the bottom of the index page, the footer containing four social media links (Facebook, Twitter, Instagram and Google Plus). The code for the footer is borrowed from the [Stockin](https://codepen.io/Stockin/pen/bzdNOq).
+The index page has a background image covers whole screen. It has logo on the top left side of the page. It contains three navigation links(appears as buttons) that are anchored to pages on the website. On the bottom of the index page, the footer containing four social media links (Facebook, Twitter, Instagram and Google Plus). The code for the footer is borrowed from the [Stockin](https://codepen.io/Stockin/pen/bzdNOq).
 
 ### About Us Page
 
@@ -265,7 +265,7 @@ I would like to thank the following people:
 
 Lauren-Nicole
 
-* My helpful mentor at the Coding Institute who was always there to offer useful tips and constructive feedback.
+* My helpful mentor at Code Institute who was always there to offer useful tips and constructive feedback.
 
 Paul-Thomas
 
