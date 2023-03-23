@@ -636,6 +636,12 @@ ul li a:hover:nth-child(4) {
     position: relative;
 }
 
+#footer-index{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
 /* Menu Page */
 /* Pattern background */
 #menu-heading-background {
@@ -1375,7 +1381,7 @@ textarea {
     .submit-button {
         width: 40%;
     }
-    
+
 }
 
 /* For screens size from 400px wide and down */
